@@ -9,12 +9,12 @@ The CMake file tells your machine how to build the `FunctionNamePass.cpp` pass i
 
 
 Workflow: 
-FunctionNamePass.cpp = LLVM pass code
+`FunctionNamePass.cpp` = LLVM pass code
 
-CMakeLists.txt = instructions for building pass
+`CMakeLists.txt` = instructions for building pass
 
-cmake command = reads CMakeLists.txt and creates build files
+cmake command = reads `CMakeLists.txt` and creates build files
 
-cmake --build = compiles FunctionNamePass.cpp into a plugin
+`cmake --build` = compiles `FunctionNamePass.cpp` into a plugin
 
-opt = loads plugin and runs pass on LLVM IR
+`opt` = loads plugin and runs pass on LLVM IR
