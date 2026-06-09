@@ -23,5 +23,4 @@ cmake command = reads `CMakeLists.txt` and creates build files
 
 To copy files into commit directory: 
 
-`ditto /Users/daniel/llvm-from-source/llvm-project/FunctionNamePass \
-      /Users/daniel/llvm-from-source/llvm-function-pass/`
+`ditto /Users/daniel/llvm-from-source/llvm-project/FunctionNamePass /Users/daniel/llvm-from-source/llvm-function-pass`
