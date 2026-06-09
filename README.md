@@ -19,3 +19,9 @@ cmake command = reads `CMakeLists.txt` and creates build files
 `cmake --build` = compiles `FunctionNamePass.cpp` into a plugin
 
 `opt` = loads plugin and runs pass on LLVM IR
+
+
+To copy files into commit directory: 
+
+ditto /Users/daniel/llvm-from-source/llvm-project/FunctionNamePass \
+      /Users/daniel/llvm-from-source/llvm-function-pass/
